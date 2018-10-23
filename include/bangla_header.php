@@ -101,6 +101,9 @@ $doctordata = new DoctorData();
                         <a class="nav-link" href="bangla_bloodbank.php">ব্লাড ব্যাংক</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="bangla_calori.php">ক্যালরি</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="bangla_emergency.php">ইমার্জেন্সি নাম্বার</a>
                     </li>
                     <li class="nav-item dropdown">

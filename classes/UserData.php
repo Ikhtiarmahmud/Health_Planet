@@ -193,20 +193,22 @@ class UserData
     public function calori($data){
         $foodname = $this->fm->validation($data['foodname']);
         $foodquantity  = $this->fm->validation($data['foodquantity']);
+        $calorie  = $this->fm->validation($data['calorie']);
 
         $foodname        = mysqli_real_escape_string($this->db->link,$data['foodname']);
         $foodquantity         = mysqli_real_escape_string($this->db->link,$data['foodquantity']);
+        $calorie         = mysqli_real_escape_string($this->db->link,$data['calorie']);
 
         if(empty($foodname) || empty($foodquantity)){
             $msg =  "<span class='error'>Field Must not be empty!</span>";
             return $msg;
         }
         else {
-            $query = "INSERT INTO tbl_calori(foodname,foodquantity) VALUES ('$foodname','$foodquantity')";
+            $query = "INSERT INTO tbl_calori(foodname,foodquantity,calorie) VALUES ('$foodname','$foodquantity','$calorie')";
             $userrdata = $this->db->insert($query);
             if($userrdata != false) {
                 $msg = "<span class='success'>Added Successfuly!</span>";?>
-                <script>window.location = "calori.php"</script>
+                <script>window.location = "caloriedetails.php"</script>
                 <?php /*header("Location:userpost.php");*/
             }
             else{

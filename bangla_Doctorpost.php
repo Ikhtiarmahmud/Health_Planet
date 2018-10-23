@@ -10,8 +10,17 @@ if (!isset($p_id) || $p_id == NULL) {
 <section id="maincontent">
     <div class="container-fluid">
         <div class="row">
+            <div id="fb-root"></div>
             <div class="middlecontent col-md-7 offset-md-1">
-                <h3 class="text-center"><a href="bangla_index.php"><i class="fas fa-hand-point-left"></i>&nbsp;ব্যাক</a></h3>
+                <?php
+                $dlogin = Session::get("dlogin");
+                if($dlogin == true){ ?>
+                    <h3 class="text-center"><a href="bangla_doctor_index.php"><i class="fas fa-hand-point-left"></i>&nbsp;ব্যাক</a></h3>
+                <?php }
+                else{ ?>
+                    <h3 class="text-center"><a href="bangla_index.php"><i class="fas fa-hand-point-left"></i>&nbsp;ব্যাক</a></h3>
+                <?php }
+                ?>
                 <div class="subcontent">
                     <?php
                     /*$getpost = $doctordata->getdoctorpost();*/
@@ -45,6 +54,7 @@ if (!isset($p_id) || $p_id == NULL) {
                         }
                     }
                     ?>
+                    <div class="fb-comments" data-href="localhost/planet_copy/" data-width="200px" data-numposts="5"></div>
                 </div>
             </div>
             <div class="rightsidebar col-md-4">

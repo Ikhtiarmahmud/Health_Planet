@@ -51,7 +51,7 @@ if (!isset($p_id) || $p_id == NULL) {
                         if($gettitle){
                             while ($result = $gettitle->fetch_assoc()){
                                 ?>
-                                <li><a href="Doctorpost.php?categoryid=<?php echo $result['doctorpostid']?>"><i class="fas fa-angle-double-right"></i>&nbsp;<?php echo $result['title']?></a></li>
+                                <li><a href="Doctorpost_by_category.php?categoryid=<?php echo $result['doctorpostid']?>"><i class="fas fa-angle-double-right"></i>&nbsp;<?php echo $result['title']?></a></li>
                                 <?php
                             }
                         }

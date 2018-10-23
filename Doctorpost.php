@@ -2,7 +2,9 @@
 <?php
 $p_id=mysqli_real_escape_string($db->link,$_GET['doctorpostid']);
 if (!isset($p_id) || $p_id == NULL) {
-    header("Location:404.php");
+    ?>
+    <script>window.location="404.php"</script>
+    <?php
 } else {
     $id = $p_id;
 }
@@ -12,7 +14,15 @@ if (!isset($p_id) || $p_id == NULL) {
         <div class="row">
             <div id="fb-root"></div>
             <div class="middlecontent col-md-7 offset-md-1">
-                <h3 class="text-center"><a href="index.php"><i class="fas fa-hand-point-left"></i>&nbsp;Back</a></h3>
+                <?php
+                $dlogin = Session::get("dlogin");
+                if($dlogin == true){ ?>
+                <h3 class="text-center"><a href="doctor_index.php"><i class="fas fa-hand-point-left"></i>&nbsp;Back</a></h3>
+                    <?php }
+                    else{ ?>
+                        <h3 class="text-center"><a href="index.php"><i class="fas fa-hand-point-left"></i>&nbsp;Back</a></h3>
+                   <?php }
+                    ?>
                 <div class="subcontent">
                     <?php
                     /*$getpost = $doctordata->getdoctorpost();*/

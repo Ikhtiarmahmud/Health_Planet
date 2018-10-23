@@ -4,7 +4,20 @@
     <bookmark url="file://$PROJECT_DIR$/classes/UserData.php" line="129" mnemonic="4" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="390aa083-aaf1-4c0f-a85a-851051936735" name="Default" comment="" />
+    <list default="true" id="390aa083-aaf1-4c0f-a85a-851051936735" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Doctorpost.php" afterPath="$PROJECT_DIR$/Doctorpost.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bangla_Doctorpost.php" afterPath="$PROJECT_DIR$/bangla_Doctorpost.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bangla_user_post's.php" afterPath="$PROJECT_DIR$/bangla_user_post's.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bangla_userpost.php" afterPath="$PROJECT_DIR$/bangla_userpost.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/UserData.php" afterPath="$PROJECT_DIR$/classes/UserData.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/emergency.php" afterPath="$PROJECT_DIR$/emergency.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/emergencysearch.php" afterPath="$PROJECT_DIR$/emergencysearch.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/bangla_header.php" afterPath="$PROJECT_DIR$/include/bangla_header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_post's.php" afterPath="$PROJECT_DIR$/user_post's.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/userpost.php" afterPath="$PROJECT_DIR$/userpost.php" />
+    </list>
     <ignored path="Theme_forest.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -25,124 +38,43 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/include/header.php">
+      <file leaf-file-name="caloriedetailssearch.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/caloriedetailssearch.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-209">
-              <caret line="103" column="68" selection-start-line="103" selection-start-column="68" selection-end-line="103" selection-end-column="68" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/include/footer.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="calori.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/calori.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="386">
-              <caret line="29" column="77" selection-start-line="29" selection-start-column="77" selection-end-line="29" selection-end-column="77" />
+            <state relative-caret-position="289">
+              <caret line="24" column="50" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
               <folding>
-                <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+                <marker date="1540319655657" expanded="true" signature="1443:1506" placeholder="SELECT * FRO... tbl_calorie" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserData.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/classes/UserData.php">
+      <file leaf-file-name="bangla_calori.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bangla_calori.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="344">
-              <caret line="218" column="32" selection-start-line="218" selection-start-column="32" selection-end-line="218" selection-end-column="32" />
-              <folding>
-                <element signature="n#getuserdata#0;n#UserData#0;n#!!top" expanded="false" />
-                <element signature="n#getuserdataforblodd#0;n#UserData#0;n#!!top" expanded="false" />
-                <element signature="n#userupdateprofile#0;n#UserData#0;n#!!top" expanded="false" />
-                <element signature="n#userpost#0;n#UserData#0;n#!!top" expanded="false" />
-                <element signature="n#emergencynumber#0;n#UserData#0;n#!!top" expanded="false" />
-                <element signature="n#getemergencynumber#0;n#UserData#0;n#!!top" expanded="false" />
-                <element signature="n#calori#0;n#UserData#0;n#!!top" expanded="false" />
-                <element signature="n#getcalori#0;n#UserData#0;n#!!top" expanded="false" />
-                <element signature="n#getuserpost#0;n#UserData#0;n#!!top" expanded="false" />
-                <element signature="n#inboxdata#0;n#UserData#0;n#!!top" expanded="false" />
-                <marker date="1540212959837" expanded="true" signature="368:414" placeholder="SELECT * FRO... tbl_userLogin" />
-                <marker date="1540212959837" expanded="true" signature="553:601" placeholder="SELECT * FRO... tbl_userLogin" />
-                <marker date="1540212959837" expanded="true" signature="3655:4078" placeholder="UPDATE `tbl_... " />
-                <marker date="1540212959837" expanded="true" signature="3655:4424" placeholder="UPDATE `tbl_... " />
-                <marker date="1540212959837" expanded="true" signature="3655:4486" placeholder="UPDATE `tbl_... " />
-                <marker date="1540212959837" expanded="true" signature="4895:5602" placeholder="UPDATE `tbl_... " />
-                <marker date="1540212959837" expanded="true" signature="6822:6928" placeholder="INSERT INTO tbl_userpost... " />
-                <marker date="1540212959837" expanded="true" signature="8092:8188" placeholder="INSERT INTO tbl_userpost... " />
-                <marker date="1540212959837" expanded="true" signature="8707:8757" placeholder="SELECT * FRO... tbl_emergencynumber" />
-                <marker date="1540212959837" expanded="true" signature="9395:9477" placeholder="INSERT INTO tbl_emergencynumber... " />
-                <marker date="1540212959837" expanded="true" signature="9984:10025" placeholder="SELECT * FRO... tbl_emergencynumber" />
-                <marker date="1540212959837" expanded="true" signature="10163:10214" placeholder="SELECT * FRO... tbl_userpost" />
-                <marker date="1540212959837" expanded="true" signature="10916:11037" placeholder="INSERT INTO tbl_userpost... " />
-                <marker date="1540212959837" expanded="true" signature="11534:11588" placeholder="SELECT * FRO... tbl_inbox" />
-                <marker date="1540212959837" expanded="true" signature="11534:11605" placeholder="SELECT * FRO... tbl_inbox" />
-                <marker date="1540212959837" expanded="true" signature="11534:11614" placeholder="SELECT * FRO... tbl_inbox" />
-              </folding>
+            <state relative-caret-position="-34">
+              <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bangla_edituserprofile.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bangla_edituserprofile.php">
+      <file leaf-file-name="bangla_header.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/include/bangla_header.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="357">
-              <caret line="54" column="133" selection-start-line="54" selection-start-column="133" selection-end-line="54" selection-end-column="133" />
+              <caret line="103" column="76" selection-start-line="103" selection-start-column="76" selection-end-line="103" selection-end-column="76" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bangla_Doctor_Profile.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bangla_Doctor_Profile.php">
+      <file leaf-file-name="bangla_caloriedetails.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bangla_caloriedetails.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-563">
-              <caret line="56" column="45" selection-start-line="56" selection-start-column="45" selection-end-line="56" selection-end-column="45" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DoctorData.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/classes/DoctorData.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="41" column="57" selection-start-line="41" selection-start-column="57" selection-end-line="41" selection-end-column="57" />
-              <folding>
-                <element signature="n#getdoctordata#0;n#DoctorData#0;n#!!top" expanded="false" />
-                <element signature="n#doctorupdateprofile#0;n#DoctorData#0;n#!!top" expanded="false" />
-                <marker date="1540185260887" expanded="true" signature="373:424" placeholder="SELECT * FRO... tbl_doctorlogin" />
-                <marker date="1540185260887" expanded="true" signature="1321:1429" placeholder="INSERT INTO tbl_doctorpost... " />
-                <marker date="1540185260887" expanded="true" signature="4542:5200" placeholder="UPDATE `tbl_... " />
-                <marker date="1540185260887" expanded="true" signature="5671:6263" placeholder="UPDATE `tbl_... " />
-                <marker date="1540185260887" expanded="true" signature="6725:6788" placeholder="SELECT * FRO... tbl_doctorpost" />
-                <marker date="1540185260887" expanded="true" signature="6924:6970" placeholder="SELECT * FRO... tbl_doctorlogin" />
-                <marker date="1540185260887" expanded="true" signature="7109:7155" placeholder="SELECT * FRO... tbl_doctorlogin" />
-                <marker date="1540185260887" expanded="true" signature="7296:7342" placeholder="SELECT * FRO... tbl_doctorlogin" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1853">
-              <caret line="41" column="16" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
+            <state relative-caret-position="119">
+              <caret line="11" column="35" selection-start-line="10" selection-start-column="10" selection-end-line="11" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -151,24 +83,74 @@
       <file leaf-file-name="Doctorpost.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Doctorpost.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="49" column="123" selection-start-line="48" selection-start-column="18" selection-end-line="49" selection-end-column="123" />
+            <state relative-caret-position="408">
+              <caret line="24" column="22" selection-start-line="16" selection-start-column="15" selection-end-line="24" selection-end-column="22" />
               <folding>
-                <marker date="1540027780900" expanded="true" signature="675:728" placeholder="SELECT * FRO... tbl_doctorpost" />
-                <marker date="1540027780900" expanded="true" signature="2735:2798" placeholder="SELECT * FRO... tbl_doctorpost" />
+                <marker date="1540320723474" expanded="true" signature="1059:1112" placeholder="SELECT * FRO... tbl_doctorpost" />
+                <marker date="1540320723474" expanded="true" signature="3119:3182" placeholder="SELECT * FRO... tbl_doctorpost" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Doctorpost_by_category.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Doctorpost_by_category.php">
+      <file leaf-file-name="bangla_Doctorpost.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bangla_Doctorpost.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="479">
-              <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+            <state relative-caret-position="493">
+              <caret line="56" column="123" selection-start-line="56" selection-start-column="123" selection-end-line="56" selection-end-column="123" />
               <folding>
-                <marker date="1540211953070" expanded="true" signature="835:896" placeholder="SELECT * FRO... tbl_doctorpost" />
-                <marker date="1540211953070" expanded="true" signature="2162:2225" placeholder="SELECT * FRO... tbl_doctorpost" />
+                <marker date="1540321236007" expanded="true" signature="1035:1088" placeholder="SELECT * FRO... tbl_doctorpost" />
+                <marker date="1540321236007" expanded="true" signature="3045:3108" placeholder="SELECT * FRO... tbl_doctorpost" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bangla_userpost.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bangla_userpost.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="595">
+              <caret line="35" column="123" selection-start-line="35" selection-start-column="123" selection-end-line="35" selection-end-column="123" />
+              <folding>
+                <marker date="1540321155009" expanded="true" signature="2038:2101" placeholder="SELECT * FRO... tbl_doctorpost" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user_post's.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/user_post's.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="36" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="36" />
+              <folding>
+                <marker date="1540321005893" expanded="true" signature="611:660" placeholder="SELECT * FRO... tbl_userpost" />
+                <marker date="1540321005893" expanded="true" signature="2294:2357" placeholder="SELECT * FRO... tbl_doctorpost" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bangla_user_post's.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bangla_user_post's.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="40" column="19" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="123" />
+              <folding>
+                <marker date="1540321100797" expanded="true" signature="626:675" placeholder="SELECT * FRO... tbl_userpost" />
+                <marker date="1540321100797" expanded="true" signature="2311:2374" placeholder="SELECT * FRO... tbl_doctorpost" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="userpost.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/userpost.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="47" column="67" selection-start-line="47" selection-start-column="67" selection-end-line="47" selection-end-column="67" />
+              <folding>
+                <marker date="1540320807172" expanded="true" signature="1891:1954" placeholder="SELECT * FRO... tbl_doctorpost" />
               </folding>
             </state>
           </provider>
@@ -184,20 +166,17 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/inbox.html" />
-        <option value="$PROJECT_DIR$/doctor_index.html" />
-        <option value="$PROJECT_DIR$/userpost.html" />
-        <option value="$PROJECT_DIR$/webfonts/login.html" />
-        <option value="$PROJECT_DIR$/login.html" />
         <option value="$PROJECT_DIR$/userprofile.html" />
         <option value="$PROJECT_DIR$/Doctor_Profile.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/lib/Database.php" />
         <option value="$PROJECT_DIR$/lib/Session.php" />
-        <option value="$PROJECT_DIR$/userpost.php" />
         <option value="$PROJECT_DIR$/editdoctorprofile.php" />
         <option value="$PROJECT_DIR$/Doctor_Profile_for_user.php" />
         <option value="$PROJECT_DIR$/inbox.php" />
@@ -205,23 +184,15 @@
         <option value="$PROJECT_DIR$/bangla_editdoctorprofile.php" />
         <option value="$PROJECT_DIR$/bangla_Doctor_Profile_for_user.php" />
         <option value="$PROJECT_DIR$/bangla_Doctor_Profile.php" />
-        <option value="$PROJECT_DIR$/bangla_userpost.php" />
-        <option value="$PROJECT_DIR$/bangla_user_post's.php" />
         <option value="$PROJECT_DIR$/bangla_inbox.php" />
         <option value="$PROJECT_DIR$/bangla_emergencysearch.php" />
         <option value="$PROJECT_DIR$/bangla_Doctorpost_by_category.php" />
         <option value="$PROJECT_DIR$/bangla_emergency.php" />
-        <option value="$PROJECT_DIR$/emergency.php" />
-        <option value="$PROJECT_DIR$/user_post's.php" />
-        <option value="$PROJECT_DIR$/include/bangla_header.php" />
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/doctor_index.php" />
         <option value="$PROJECT_DIR$/bangla_doctor_index.php" />
-        <option value="$PROJECT_DIR$/bangla_Doctorpost.php" />
-        <option value="$PROJECT_DIR$/Doctorpost.php" />
         <option value="$PROJECT_DIR$/bangla_index.php" />
         <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/emergencysearch.php" />
         <option value="$PROJECT_DIR$/login.php" />
         <option value="$PROJECT_DIR$/classes/Register.php" />
         <option value="$PROJECT_DIR$/bloodbank.php" />
@@ -235,9 +206,23 @@
         <option value="$PROJECT_DIR$/classes/DoctorData.php" />
         <option value="$PROJECT_DIR$/Doctorpost_by_category.php" />
         <option value="$PROJECT_DIR$/include/header.php" />
-        <option value="$PROJECT_DIR$/classes/UserData.php" />
         <option value="$PROJECT_DIR$/include/footer.php" />
         <option value="$PROJECT_DIR$/calori.php" />
+        <option value="$PROJECT_DIR$/emergency.php" />
+        <option value="$PROJECT_DIR$/emergencysearch.php" />
+        <option value="$PROJECT_DIR$/caloriedetails.php" />
+        <option value="$PROJECT_DIR$/classes/UserData.php" />
+        <option value="$PROJECT_DIR$/caloriedetailssearch.php" />
+        <option value="$PROJECT_DIR$/bangla_caloriedetailssearch.php" />
+        <option value="$PROJECT_DIR$/bangla_caloriedetails.php" />
+        <option value="$PROJECT_DIR$/include/bangla_header.php" />
+        <option value="$PROJECT_DIR$/bangla_calori.php" />
+        <option value="$PROJECT_DIR$/Doctorpost.php" />
+        <option value="$PROJECT_DIR$/userpost.php" />
+        <option value="$PROJECT_DIR$/user_post's.php" />
+        <option value="$PROJECT_DIR$/bangla_user_post's.php" />
+        <option value="$PROJECT_DIR$/bangla_userpost.php" />
+        <option value="$PROJECT_DIR$/bangla_Doctorpost.php" />
       </list>
     </option>
   </component>
@@ -251,10 +236,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-56" />
-    <option name="y" value="243" />
-    <option name="width" value="1370" />
-    <option name="height" value="745" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="754" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -281,7 +266,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -345,6 +329,7 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -472,17 +457,18 @@
       <workItem from="1540044846605" duration="2134000" />
       <workItem from="1540095871558" duration="1189000" />
       <workItem from="1540183829079" duration="13056000" />
+      <workItem from="1540317435650" duration="3777000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="334503000" />
+    <option name="totallyTimeSpent" value="338280000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-56" y="243" width="1370" height="745" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14771049" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14714494" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -546,20 +532,20 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/classes/UserData.php</url>
-          <line>230</line>
+          <line>232</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Doctorpost.php</url>
+          <line>20</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="11" />
+      <option name="time" value="12" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/userpost.html" />
-    <entry file="file://$PROJECT_DIR$/inbox.html" />
-    <entry file="file://$PROJECT_DIR$/doctor_index.html" />
-    <entry file="file://$PROJECT_DIR$/userprofile.html" />
-    <entry file="file://$PROJECT_DIR$/Doctor_Profile.html" />
     <entry file="file://$PROJECT_DIR$/config/config.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -610,32 +596,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/userpost.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1003">
-          <caret line="59" column="37" selection-start-line="59" selection-start-column="37" selection-end-line="59" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Doctor_Profile.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
           <caret line="34" column="62" selection-start-line="34" selection-start-column="62" selection-end-line="34" selection-end-column="62" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bangla_userpost.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="42" column="55" selection-start-line="42" selection-start-column="55" selection-end-line="42" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bangla_user_post's.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="47" column="99" selection-start-line="47" selection-start-column="99" selection-end-line="47" selection-end-column="99" />
         </state>
       </provider>
     </entry>
@@ -681,47 +646,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/include/bangla_header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="24" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/emergency.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="49" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bangla_index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="96" column="104" selection-start-line="96" selection-start-column="104" selection-end-line="96" selection-end-column="104" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user_post's.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="36" />
-          <folding>
-            <marker date="1539772874424" expanded="true" signature="611:660" placeholder="SELECT * FRO... tbl_userpost" />
-            <marker date="1539772874424" expanded="true" signature="2294:2357" placeholder="SELECT * FRO... tbl_doctorpost" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bangla_Doctorpost.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="56" selection-start-line="13" selection-start-column="56" selection-end-line="13" selection-end-column="56" />
-          <folding>
-            <marker date="1540027427607" expanded="true" signature="653:706" placeholder="SELECT * FRO... tbl_doctorpost" />
-            <marker date="1540027427607" expanded="true" signature="2539:2602" placeholder="SELECT * FRO... tbl_doctorpost" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -745,16 +673,6 @@
             <marker date="1540018271210" expanded="true" signature="1816:1890" placeholder="select * fro... tbl_doctorpost" />
             <marker date="1540018271210" expanded="true" signature="2803:2831" placeholder="select * fro... tbl_doctorpost" />
             <marker date="1540018271210" expanded="true" signature="3811:3874" placeholder="SELECT * FRO... tbl_doctorpost" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/emergencysearch.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="44" column="70" selection-start-line="44" selection-start-column="70" selection-end-line="44" selection-end-column="70" />
-          <folding>
-            <marker date="1540049441257" expanded="true" signature="1477:1587" placeholder="SELECT * FRO... tbl_emergencynumber" />
           </folding>
         </state>
       </provider>
@@ -856,7 +774,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bangla_edituserprofile.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
+        <state relative-caret-position="918">
           <caret line="54" column="133" selection-start-line="54" selection-start-column="133" selection-end-line="54" selection-end-column="133" />
           <folding />
         </state>
@@ -864,7 +782,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bangla_Doctor_Profile.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-563">
+        <state relative-caret-position="952">
           <caret line="56" column="45" selection-start-line="56" selection-start-column="45" selection-end-line="56" selection-end-column="45" />
           <folding />
         </state>
@@ -872,7 +790,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/classes/DoctorData.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
+        <state relative-caret-position="629">
           <caret line="41" column="57" selection-start-line="41" selection-start-column="57" selection-end-line="41" selection-end-column="57" />
           <folding>
             <element signature="n#getdoctordata#0;n#DoctorData#0;n#!!top" expanded="false" />
@@ -891,26 +809,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1853">
+        <state relative-caret-position="697">
           <caret line="41" column="16" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Doctorpost.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="49" column="123" selection-start-line="48" selection-start-column="18" selection-end-line="49" selection-end-column="123" />
-          <folding>
-            <marker date="1540027780900" expanded="true" signature="675:728" placeholder="SELECT * FRO... tbl_doctorpost" />
-            <marker date="1540027780900" expanded="true" signature="2735:2798" placeholder="SELECT * FRO... tbl_doctorpost" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Doctorpost_by_category.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
+        <state relative-caret-position="1037">
           <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
           <folding>
             <marker date="1540211953070" expanded="true" signature="835:896" placeholder="SELECT * FRO... tbl_doctorpost" />
@@ -919,44 +826,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/classes/UserData.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="218" column="32" selection-start-line="218" selection-start-column="32" selection-end-line="218" selection-end-column="32" />
-          <folding>
-            <element signature="n#getuserdata#0;n#UserData#0;n#!!top" expanded="false" />
-            <element signature="n#getuserdataforblodd#0;n#UserData#0;n#!!top" expanded="false" />
-            <element signature="n#userupdateprofile#0;n#UserData#0;n#!!top" expanded="false" />
-            <element signature="n#userpost#0;n#UserData#0;n#!!top" expanded="false" />
-            <element signature="n#emergencynumber#0;n#UserData#0;n#!!top" expanded="false" />
-            <element signature="n#getemergencynumber#0;n#UserData#0;n#!!top" expanded="false" />
-            <element signature="n#calori#0;n#UserData#0;n#!!top" expanded="false" />
-            <element signature="n#getcalori#0;n#UserData#0;n#!!top" expanded="false" />
-            <element signature="n#getuserpost#0;n#UserData#0;n#!!top" expanded="false" />
-            <element signature="n#inboxdata#0;n#UserData#0;n#!!top" expanded="false" />
-            <marker date="1540212959837" expanded="true" signature="368:414" placeholder="SELECT * FRO... tbl_userLogin" />
-            <marker date="1540212959837" expanded="true" signature="553:601" placeholder="SELECT * FRO... tbl_userLogin" />
-            <marker date="1540212959837" expanded="true" signature="3655:4078" placeholder="UPDATE `tbl_... " />
-            <marker date="1540212959837" expanded="true" signature="3655:4424" placeholder="UPDATE `tbl_... " />
-            <marker date="1540212959837" expanded="true" signature="3655:4486" placeholder="UPDATE `tbl_... " />
-            <marker date="1540212959837" expanded="true" signature="4895:5602" placeholder="UPDATE `tbl_... " />
-            <marker date="1540212959837" expanded="true" signature="6822:6928" placeholder="INSERT INTO tbl_userpost... " />
-            <marker date="1540212959837" expanded="true" signature="8092:8188" placeholder="INSERT INTO tbl_userpost... " />
-            <marker date="1540212959837" expanded="true" signature="8707:8757" placeholder="SELECT * FRO... tbl_emergencynumber" />
-            <marker date="1540212959837" expanded="true" signature="9395:9477" placeholder="INSERT INTO tbl_emergencynumber... " />
-            <marker date="1540212959837" expanded="true" signature="9984:10025" placeholder="SELECT * FRO... tbl_emergencynumber" />
-            <marker date="1540212959837" expanded="true" signature="10163:10214" placeholder="SELECT * FRO... tbl_userpost" />
-            <marker date="1540212959837" expanded="true" signature="10916:11037" placeholder="INSERT INTO tbl_userpost... " />
-            <marker date="1540212959837" expanded="true" signature="11534:11588" placeholder="SELECT * FRO... tbl_inbox" />
-            <marker date="1540212959837" expanded="true" signature="11534:11605" placeholder="SELECT * FRO... tbl_inbox" />
-            <marker date="1540212959837" expanded="true" signature="11534:11614" placeholder="SELECT * FRO... tbl_inbox" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/include/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-209">
+        <state relative-caret-position="1751">
           <caret line="103" column="68" selection-start-line="103" selection-start-column="68" selection-end-line="103" selection-end-column="68" />
           <folding />
         </state>
@@ -972,13 +844,175 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/calori.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="29" column="77" selection-start-line="29" selection-start-column="77" selection-end-line="29" selection-end-column="77" />
+        <state relative-caret-position="471">
+          <caret line="34" column="62" selection-start-line="34" selection-start-column="62" selection-end-line="34" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/emergencysearch.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="131" selection-start-line="20" selection-start-column="131" selection-end-line="20" selection-end-column="131" />
           <folding>
-            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <marker date="1540317820865" expanded="true" signature="1478:1588" placeholder="SELECT * FRO... tbl_emergencynumber" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/emergency.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="37" column="11" selection-start-line="37" selection-start-column="11" selection-end-line="37" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/caloriedetails.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" column="46" selection-start-line="34" selection-start-column="46" selection-end-line="34" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/UserData.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="210" column="50" selection-start-line="210" selection-start-column="50" selection-end-line="210" selection-end-column="50" />
+          <folding>
+            <element signature="n#getuserdata#0;n#UserData#0;n#!!top" expanded="false" />
+            <element signature="n#getuserdataforblodd#0;n#UserData#0;n#!!top" expanded="false" />
+            <element signature="n#userupdateprofile#0;n#UserData#0;n#!!top" expanded="false" />
+            <element signature="n#userpost#0;n#UserData#0;n#!!top" expanded="false" />
+            <element signature="n#emergencynumber#0;n#UserData#0;n#!!top" expanded="false" />
+            <element signature="n#getemergencynumber#0;n#UserData#0;n#!!top" expanded="false" />
+            <element signature="n#getuserpost#0;n#UserData#0;n#!!top" expanded="false" />
+            <element signature="n#inboxdata#0;n#UserData#0;n#!!top" expanded="false" />
+            <marker date="1540319598336" expanded="true" signature="368:414" placeholder="SELECT * FRO... tbl_userLogin" />
+            <marker date="1540319598336" expanded="true" signature="553:601" placeholder="SELECT * FRO... tbl_userLogin" />
+            <marker date="1540319598336" expanded="true" signature="3655:4078" placeholder="UPDATE `tbl_... " />
+            <marker date="1540319598336" expanded="true" signature="3655:4424" placeholder="UPDATE `tbl_... " />
+            <marker date="1540319598336" expanded="true" signature="3655:4486" placeholder="UPDATE `tbl_... " />
+            <marker date="1540319598336" expanded="true" signature="4895:5602" placeholder="UPDATE `tbl_... " />
+            <marker date="1540319598336" expanded="true" signature="6822:6928" placeholder="INSERT INTO tbl_userpost... " />
+            <marker date="1540319598336" expanded="true" signature="8092:8188" placeholder="INSERT INTO tbl_userpost... " />
+            <marker date="1540319598336" expanded="true" signature="8707:8757" placeholder="SELECT * FRO... tbl_emergencynumber" />
+            <marker date="1540319598336" expanded="true" signature="9544:9645" placeholder="INSERT INTO tbl_emergencynumber... " />
+            <marker date="1540319598336" expanded="true" signature="10160:10201" placeholder="SELECT * FRO... tbl_emergencynumber" />
+            <marker date="1540319598336" expanded="true" signature="10339:10390" placeholder="SELECT * FRO... tbl_userpost" />
+            <marker date="1540319598336" expanded="true" signature="11092:11213" placeholder="INSERT INTO tbl_userpost... " />
+            <marker date="1540319598336" expanded="true" signature="11710:11764" placeholder="SELECT * FRO... tbl_inbox" />
+            <marker date="1540319598336" expanded="true" signature="11710:11781" placeholder="SELECT * FRO... tbl_inbox" />
+            <marker date="1540319598336" expanded="true" signature="11710:11790" placeholder="SELECT * FRO... tbl_inbox" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bangla_caloriedetailssearch.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="60" selection-start-line="13" selection-start-column="60" selection-end-line="13" selection-end-column="60" />
+          <folding>
+            <marker date="1540320005647" expanded="true" signature="1456:1519" placeholder="SELECT * FRO... tbl_calori" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/bangla_header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="103" column="76" selection-start-line="103" selection-start-column="76" selection-end-line="103" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/caloriedetailssearch.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="24" column="50" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
+          <folding>
+            <marker date="1540319655657" expanded="true" signature="1443:1506" placeholder="SELECT * FRO... tbl_calorie" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bangla_calori.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-34">
+          <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bangla_caloriedetails.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="11" column="35" selection-start-line="10" selection-start-column="10" selection-end-line="11" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/userpost.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="47" column="67" selection-start-line="47" selection-start-column="67" selection-end-line="47" selection-end-column="67" />
+          <folding>
+            <marker date="1540320807172" expanded="true" signature="1891:1954" placeholder="SELECT * FRO... tbl_doctorpost" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Doctorpost.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="22" selection-start-line="16" selection-start-column="15" selection-end-line="24" selection-end-column="22" />
+          <folding>
+            <marker date="1540320723474" expanded="true" signature="1059:1112" placeholder="SELECT * FRO... tbl_doctorpost" />
+            <marker date="1540320723474" expanded="true" signature="3119:3182" placeholder="SELECT * FRO... tbl_doctorpost" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bangla_userpost.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="123" selection-start-line="35" selection-start-column="123" selection-end-line="35" selection-end-column="123" />
+          <folding>
+            <marker date="1540321155009" expanded="true" signature="2038:2101" placeholder="SELECT * FRO... tbl_doctorpost" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user_post's.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="36" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="36" />
+          <folding>
+            <marker date="1540321005893" expanded="true" signature="611:660" placeholder="SELECT * FRO... tbl_userpost" />
+            <marker date="1540321005893" expanded="true" signature="2294:2357" placeholder="SELECT * FRO... tbl_doctorpost" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bangla_user_post's.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="40" column="19" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="123" />
+          <folding>
+            <marker date="1540321100797" expanded="true" signature="626:675" placeholder="SELECT * FRO... tbl_userpost" />
+            <marker date="1540321100797" expanded="true" signature="2311:2374" placeholder="SELECT * FRO... tbl_doctorpost" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bangla_Doctorpost.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="56" column="123" selection-start-line="56" selection-start-column="123" selection-end-line="56" selection-end-column="123" />
+          <folding>
+            <marker date="1540321236007" expanded="true" signature="1035:1088" placeholder="SELECT * FRO... tbl_doctorpost" />
+            <marker date="1540321236007" expanded="true" signature="3045:3108" placeholder="SELECT * FRO... tbl_doctorpost" />
           </folding>
         </state>
       </provider>

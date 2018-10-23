@@ -33,6 +33,7 @@
                     }
                     }
                     ?>
+                    <div class="fb-comments" data-href="localhost/planet_copy/" data-width="200px" data-numposts="5"></div>
                 </div>
             </div>
             <div class="rightsidebar col-md-3">
@@ -45,7 +46,7 @@
                         if($gettitle){
                             while ($result = $gettitle->fetch_assoc()){
                                 ?>
-                                <li><a href="Doctorpost.php?categoryid=<?php echo $result['doctorpostid']?>"><i class="fas fa-angle-double-right"></i>&nbsp;<?php echo $result['title']?></a></li>
+                                <li><a href="bangla_Doctorpost_by_category.php?categoryid=<?php echo $result['doctorpostid']?>"><i class="fas fa-angle-double-right"></i>&nbsp;<?php echo $result['title']?></a></li>
                                 <?php
                             }
                         }
