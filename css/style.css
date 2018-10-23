@@ -1,0 +1,570 @@
+@import url("animate.css");
+@import url("bootstrap.min.css");
+
+
+/*Import Google fonts*/
+/*for navbar*/
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+/*for P*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Cinzel');
+
+@import url('https://fonts.googleapis.com/css?family=Bungee+Inline');
+@import url('https://fonts.googleapis.com/css?family=Lora');
+
+@import url('https://fonts.googleapis.com/css?family=Shrikhand');
+
+/*Global Css Starts*/
+body{
+    margin: 0;
+    padding-top: 84px;
+    font-size:18px;
+    position: relative;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+    color: #80bdff;
+}
+p{
+    font-family: 'Cinzel', serif;
+
+}
+h1,h2,h3,h4,h5{
+    font-family: 'Lora', serif;
+}
+.pagination a {
+    background: #B0860A;
+    border: 1px solid #d19a1f;
+    padding: 5px;
+}
+.pagination a:hover {
+    background-color: #d19a1f;
+}
+
+/*Global Css End*/
+
+
+/*===========Header CSS==========*/
+header{
+    background-color: black;
+}
+.navbar {
+    min-height: 50px;
+    line-height: 50px;
+    background: transparent;
+    z-index: 1030;
+    transition: 1s;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.navbar > a{
+    font-size: 30px;
+    font-family: 'Shrikhand', cursive;
+}
+.navbar-nav .active {
+    color: #ed89dd !important;
+}
+.navbar .navbar-brand {
+    width: 40px;
+}
+.navbar .nav-item {
+    padding: 2px;
+    text-transform: uppercase;
+}
+.navbar .nav-item a {
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+}
+.navbar ul > .nav-item > a:hover{
+     background-color: #FE2712;
+     transition: 500ms ease-in-out;
+     border-radius: 5px;
+ }
+.navbar-nav .dropdown > .dropdown-menu > li:hover > a{
+   color: black;
+}
+.navbar-nav .active {
+    background-color: #FE2712;
+    border-radius: 5px;
+    color: #fff !important;
+}
+.navbar .nav-link {
+    position: relative;
+    padding: 0;
+}
+.navbar .dropdown-menu{
+    background-color: black;
+}
+/*==============Carousel Starts==========*/
+/*Carousel Starts*/
+#carausel{
+    position: relative;
+}
+#carausel .carousel-caption{
+    position: absolute;
+    top:150px;
+    left: 150px;
+}
+#carausel .carousel-caption > p:first-child {
+    position: absolute;
+    top: 35px;
+    left: 55px;
+    font-size: 20px;
+    font-weight: bold;
+}
+#carausel .carousel-caption > h3 {
+    position: absolute;
+    top: 75px;
+    left: 50px;
+    font-size: 45px;
+    font-weight: bold;
+}
+#carausel .carousel-caption > h3 > span{
+    color: #FE2712;
+}
+#carausel .carousel-caption > p{
+    visibility: visible;
+    -webkit-animation-delay: 0.4s;
+    -moz-animation-delay: 0.2s;
+    animation-delay: 0.2s;
+    transition: 2s;
+}
+#carausel .carousel-caption > p:nth-child(3) {
+    position: absolute;
+    top: 147px;
+    left: 53px;
+    width: 40%;
+    text-align: justify;
+}
+#carausel .carousel-caption > a > span {
+    position: absolute;
+    top: 264px;
+    left: 144px;
+    padding: 15px 55px;
+    background-color: #e1d7d7;
+    color: #2d2a2a;
+    border-radius: 50px;
+    box-shadow: 0px 4px 0px 0px gray;
+    font-family: 'Shrikhand', cursive;
+}
+#carausel .carousel-caption > a > span:hover{
+    background-color:  #FE2712;
+    transition: 500ms;
+    color: white;
+}
+/*=========Carousel Ends=========*/
+
+
+#maincontent{
+    min-height: 500px;
+    background-color: #f2f2f2;
+}
+#maincontent .leftsidebar{
+    background-image: url("../image/Parallax-background.jpg");
+    color: white;
+    padding: 30px;
+}
+#maincontent .middlecontent > h3,#maincontent .rightsidebar > h3,.comment > h3 {
+    padding: 4px;
+    background-color: #6c757d;
+    border: 1px solid #A1A1A1;
+    border-radius: 9px;
+    margin-top: 5px;
+    color: whitesmoke;
+    font-size: 25px;
+}
+#maincontent .middlecontent > .subcontent > div > h3 {
+    color: #077da6;
+    font-size: 35px;
+    padding-top: 30px;
+    letter-spacing: 1px;
+}
+#maincontent .middlecontent > .subcontent > div > a{
+    color: lightseagreen;
+}
+#maincontent .middlecontent > .subcontent > div > p:nth-child(4) {
+    border-bottom:1px dotted darkgray;
+    padding-bottom: 5px;
+}
+#maincontent .middlecontent > .subcontent > div > p:nth-child(5){
+  text-align: justify;
+}
+#maincontent .rightsidebar a{
+    color: #b1753d;
+}
+#maincontent .rightsidebar > div > ul{
+    font-size: 25px;
+}
+#maincontent .rightsidebar > div > ul > li > ul li{
+    font-size: 15px;
+}
+#maincontent .rightsidebar > div > ul > li > ul li > span{
+    background-color: green;width: 10px;height: 10px;border-radius: 100%;display: inline-block;
+}
+#maincontent .pro  span{
+    font-size: 26px;
+    color: #28ded4;
+}
+#maincontent .pro > div > div > p{
+    display: inline-block;
+    font-size: 20px;
+    color: #e2e2e2;
+}
+    /*==========Contact Starts========*/
+#contact{
+    padding: 50px 0;
+    margin: 0 auto;
+    height: auto;
+   /* background-color: #F7F7F7;*/
+    background-image: url("../image/parallax.jpg");
+}
+#contact .form-control {
+    border: 0px solid #ced4da;
+    border-bottom: 1px solid #e6d9d9;
+}
+#contact .form-control:focus {
+    background-color: #f3f3f3;
+    outline: 0;
+    box-shadow: 0 0 0 0;
+}
+#contact > .container > .row > div:first-child{
+    background-color: white;
+    padding: 50px;
+}
+#contact .row > div:first-child h3{
+    font-size: 35px;
+    text-transform: uppercase;
+    color: #9A9A9A;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+#contact form div{
+    margin-bottom: 20px;
+}
+#contact form div:nth-child(4) .form-control{
+    height: 100px;
+    border-bottom: 1px solid #e6d9d9;
+}
+#contact > .container > .row > div:last-child{
+    background-color: white;
+    padding:50px;
+    margin-left: 3%;
+}
+#contact > .container > .row > div:last-child h3{
+    font-size: 35px;
+    text-transform: uppercase;
+    color: #9A9A9A;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+#contact > .container > .row > div:last-child > div > div:nth-child(2) {
+    padding: 36px 0 19px 15px;
+    border: 1px solid #eae0e0;
+    margin-bottom: 30px;
+}
+#contact > .container > .row > div:last-child > div > div:nth-child(2) > div > i {
+    color: #cecbcb;
+    margin-left: -15px;
+    font-size: 50px;
+}
+#contact > .container > .row > div:last-child > div > div:nth-child(2) > div > address > em {
+    color: #B0A1A1;
+    font-size: 22px;
+    margin-left: -10px;
+    display: block;
+}
+#contact > .container > .row > div:last-child > div > div:nth-child(2) > div > address > em:last-child {
+    color: #B0A1A1;
+    font-size: 20px;
+    margin-left: -10px;
+    display: block;
+}
+#contact > .container > .row > div:last-child > div > div:last-child {
+    padding: 36px 0 19px 15px;
+    border: 1px solid #eae0e0;
+    margin-bottom: 30px;
+}
+#contact > .container > .row > div:last-child > div > div:last-child > div > i {
+    color: #cecbcb;
+    margin-left: -15px;
+    font-size: 50px;
+}
+#contact > .container > .row > div:last-child > div > div:last-child > div > address > em {
+    color: #B0A1A1;
+    font-size: 17px;
+    margin-left: -10px;
+    display: block;
+}
+#contact > .container > .row > div:last-child > div > div:last-child > div > address > em:last-child {
+    color: #B0A1A1;
+    font-size: 17px;
+    margin-left: -10px;
+    display: block;
+}
+/*==========Contact Ends========*/
+
+#edituser{
+    padding: 50px 0;
+    margin: 0 auto;
+    height: auto;
+    /* background-color: #F7F7F7;*/
+    background-image: url("../image/Parallax-background.jpg");
+}
+#edituser .form-control {
+    border: 0px solid #ced4da;
+    border-bottom: 1px solid #e6d9d9;
+}
+#edituser .form-control:focus {
+    background-color: #f3f3f3;
+    outline: 0;
+    box-shadow: 0 0 0 0;
+}
+#edituser > .container > .row > div:first-child{
+    background-color: white;
+    padding: 50px;
+}
+#edituser .row > div:first-child h3{
+    font-size: 35px;
+    text-transform: uppercase;
+    color: #9A9A9A;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+#edituser form div{
+    margin-bottom: 20px;
+}
+#edituser form div:nth-child(4) .form-control{
+    border-bottom: 1px solid #e6d9d9;
+}
+#edituser > .container > .row > div:last-child{
+    background-color: white;
+    padding:50px;
+}
+#edituser > .container > .row > div:last-child h3{
+    font-size: 35px;
+    text-transform: uppercase;
+    color: #9A9A9A;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+#edituser > .container > .row > div:last-child > div > div:nth-child(2) {
+    padding: 36px 0 19px 15px;
+    border: 1px solid #eae0e0;
+    margin-bottom: 30px;
+}
+#edituser > .container > .row > div:last-child > div > div:nth-child(2) > div > i {
+    color: #cecbcb;
+    margin-left: -15px;
+    font-size: 50px;
+}
+#edituser > .container > .row > div:last-child > div > div:nth-child(2) > div > address > em {
+    color: #B0A1A1;
+    font-size: 22px;
+    margin-left: -10px;
+    display: block;
+}
+#edituser > .container > .row > div:last-child > div > div:nth-child(2) > div > address > em:last-child {
+    color: #B0A1A1;
+    font-size: 20px;
+    margin-left: -10px;
+    display: block;
+}
+#edituser > .container > .row > div:last-child > div > div:last-child {
+    padding: 36px 0 19px 15px;
+    border: 1px solid #eae0e0;
+    margin-bottom: 30px;
+}
+#edituser > .container > .row > div:last-child > div > div:last-child > div > i {
+    color: #cecbcb;
+    margin-left: -15px;
+    font-size: 50px;
+}
+#edituser > .container > .row > div:last-child > div > div:last-child > div > address > em {
+    color: #B0A1A1;
+    font-size: 17px;
+    margin-left: -10px;
+    display: block;
+}
+#edituser > .container > .row > div:last-child > div > div:last-child > div > address > em:last-child {
+    color: #B0A1A1;
+    font-size: 17px;
+    margin-left: -10px;
+    display: block;
+}
+/*==========footer starts=====*/
+footer{
+    background-color: black;
+}
+footer h5{
+    text-align: center;
+    color: white;
+    padding: 30px;
+}
+/*==========footer ends=====*/
+
+
+
+
+
+
+/*===========Responsive Css==========*/
+@media (min-width: 280px) and (max-width: 319px){
+    /*Global Css*/
+    body {
+        margin: 0;
+        padding-top: 76px;
+    }
+
+    /*Carousel Section*/
+    #carausel .carousel-caption > p:first-child{
+        display: none;
+    }
+    #carausel .carousel-caption > h3 {
+        position: absolute;
+        top: -104px;
+        left: -113px;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    #carausel .carousel-caption > a >  span{
+        display: none;
+    }
+    #carausel .carousel-caption > p:nth-child(3){
+        display: none;
+    }
+    /*Contact Section*/
+    #contact > .container > .row > div:last-child{
+        margin-left: 0;
+    }
+}
+@media only screen and (min-width: 320px) and (max-width: 480px){
+    body {
+        margin: 0;
+        padding-top: 76px;
+    }
+    #carausel .carousel-caption > p:first-child {
+        top: -135px;
+        left: -107px;
+        font-size: 20px;
+    }
+    #carausel .carousel-caption > h3 {
+        top: -110px;
+        left: -107px;
+        font-size: 23px;
+    }
+    #carausel .carousel-caption > p:nth-child(3) {
+       display: none;
+    }
+    #carausel .carousel-caption > a > span {
+        position: absolute;
+        top: -66px;
+        left: -100px;
+        padding: 5px;
+    }
+    /*Contact Section*/
+    #contact > .container > .row > div:last-child{
+        margin-left: 0;
+    }
+}
+@media (min-width: 481px) and (max-width: 575.98px){
+    body {
+        margin: 0;
+        padding-top: 76px;
+    }
+    #carausel .carousel-caption > p:first-child {
+        top: -123px;
+        left: -107px;
+        font-size: 20px;
+    }
+    #carausel .carousel-caption > h3 {
+        top: -85px;
+        left: -107px;
+        font-size: 25px;
+    }
+    #carausel .carousel-caption > p:nth-child(3) {
+        top: -54px;
+        left: -107px;
+        width:400px;
+    }
+    #carausel .carousel-caption > a >  span {
+        position: absolute;
+        top: -116px;
+        left: 182px;
+        padding: 5px;
+    }
+    /*Contact Section*/
+    #contact > .container > .row > div:last-child{
+        margin-left: 0;
+    }
+}
+@media (min-width: 576px) and (max-width: 767.98px){
+    body{
+        padding-top: 75px;
+    }
+    /*Carousel Caption*/
+    #carausel .carousel-caption > p:first-child {
+        top: -123px;
+        left: -107px;
+        font-size: 20px;
+    }
+    #carausel .carousel-caption > h3 {
+        top: -85px;
+        left: -107px;
+        font-size: 25px;
+    }
+    #carausel .carousel-caption > p:nth-child(3) {
+        top: -54px;
+        left: -107px;
+        width:400px;
+    }
+    #carausel .carousel-caption > a > span {
+        position: absolute;
+        top: 55px;
+        left: -100px;
+        padding: 5px;
+    }
+    /*Contact Section*/
+    #contact > .container > .row > div:last-child{
+        margin-left: 0;
+    }
+
+}
+@media (min-width: 768px) and (max-width: 991.98px){
+    body {
+        padding-top: 76px;
+    }
+    #carausel .carousel-caption > p:first-child {
+        top: -53px;
+        left: -107px;
+        font-size: 20px;
+    }
+    #carausel .carousel-caption > h3 {
+        top: -18px;
+        left: -107px;
+        font-size: 25px;
+    }
+    #carausel .carousel-caption > p:nth-child(3) {
+        top: 16px;
+        left: -107px;
+        width:400px;
+    }
+    #carausel .carousel-caption > a > span {
+        top: 140px;
+        padding: 10px;
+        left: -87px;
+    }
+    /*Contact Section*/
+    #contact > .container > .row > div:last-child{
+        margin-left: 0;
+    }
+
+}
+@media (min-width: 992px) and (max-width: 1170px){
+    #carausel .carousel-caption > p:nth-child(3) {
+         width: 400px;
+    }
+}
